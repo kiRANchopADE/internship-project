@@ -1,60 +1,63 @@
 # internship-project
---------------------------------------------------------------------Smart Food Expiry System----------------------------------------------------------------------------------
+🥫 Smart Food Expiry System
+📘 Overview
 
---//OVERVIEW//--
+Smart Food Expiry System is an IoT-based solution designed to reduce food wastage by monitoring temperature, humidity, and expiry dates of stored food items. The system alerts users via Blynk App, LCD Display, and Buzzer when any food becomes unsafe or expired.
 
->> Smart Food Expiry System is an IoT-based solution designed to reduce food wastage by monitoring temperature, humidity, and expiry dates of stored food items. The system alerts users via Blynk App, LCD Display, and Buzzer when any food becomes unsafe or expired.
+⚙️ Tech Stack
 
---//TECH STACK//--
+Microcontroller: ESP32
 
-1. Microcontroller: ESP32
+Sensor: DHT22 (Temperature & Humidity)
 
-2. Sensor: DHT22 (Temperature & Humidity)
+Display: I2C LCD 16x2
 
-3. Display: I2C LCD 16x2
+IoT Platform: Blynk Cloud
 
-4. IoT Platform: Blynk Cloud
+Programming Language: C++ (Arduino IDE)
 
-5. Programming Language: C++ (Arduino IDE)
+Version Control: Git & GitHub
 
-6. Version Control: Git & GitHub
+💡 Working Principle
 
---//WORKIG PRINCIPAL//--
+User adds a food item and its expiry duration using the Blynk app.
 
-> User adds a food item and its expiry duration using the Blynk app.
+ESP32 reads real-time temperature and humidity via DHT22.
 
-> ESP32 reads real-time temperature and humidity via DHT22.
+The system compares readings with safe limits for each food.
 
-> The system compares readings with safe limits for each food.
+Alerts are triggered through Buzzer, LCD, and Blynk notifications if unsafe or expired.
 
-> Alerts are triggered through Buzzer, LCD, and Blynk notifications if unsafe or expired.
+🚀 Key Features
 
---//KEY FEATURES//--
+Real-time environmental monitoring
 
-> Real-time environmental monitoring
+Automatic expiry and spoilage detection
 
-> Automatic expiry and spoilage detection
+Cloud alerts and event logging via Blynk
 
-> Cloud alerts and event logging via Blynk
+Multi-item tracking with predefined food database
 
-> Multi-item tracking with predefined food database
+Compact, low-power IoT design
 
-> Compact, low-power IoT design
+🧩 Hardware Connections
+Component	ESP32 Pin
+DHT22 Data	GPIO 15
+LCD SDA	GPIO 21
+LCD SCL	GPIO 22
+Buzzer	GPIO 2
+🧠 Future Enhancements
 
+Cloud database integration (Firebase / Node.js)
 
---//Future Enhancements//--
+AI-based spoilage prediction
 
-> Cloud database integration (Firebase / Node.js)
+Voice or chatbot-based assistant
 
-> AI-based spoilage prediction
+Mobile dashboard for multiple storage areas
 
-> Voice or chatbot-based assistant
+👨‍💻 Developed By
 
-> Mobile dashboard for multiple storage areas
-
---//Developed By//--
-
-Kiran Chopde
-Harshank Kohad
+Kiran Chopde & Harshank Kohad
 Smart IoT Solutions Intern Project
 📍2025
