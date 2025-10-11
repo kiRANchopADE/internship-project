@@ -46,6 +46,7 @@ DHT22 Data	GPIO 15
 LCD SDA	GPIO 21
 LCD SCL	GPIO 22
 Buzzer	GPIO 2
+
 🧠 Future Enhancements
 
 Cloud database integration (Firebase / Node.js)
