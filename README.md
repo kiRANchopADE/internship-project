@@ -1,5 +1,6 @@
 # internship-project
 🥫 Smart Food Expiry System
+
 📘 Overview
 
 Smart Food Expiry System is an IoT-based solution designed to reduce food wastage by monitoring temperature, humidity, and expiry dates of stored food items. The system alerts users via Blynk App, LCD Display, and Buzzer when any food becomes unsafe or expired.
@@ -41,10 +42,15 @@ Multi-item tracking with predefined food database
 Compact, low-power IoT design
 
 🧩 Hardware Connections
-Component	ESP32 Pin
+Component	
+ESP32 Pin
+
 DHT22 Data	GPIO 15
+
 LCD SDA	GPIO 21
+
 LCD SCL	GPIO 22
+
 Buzzer	GPIO 2
 
 🧠 Future Enhancements
